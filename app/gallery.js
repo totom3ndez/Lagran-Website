@@ -3,8 +3,8 @@ const lightbox = document.createElement('div');
 lightbox.id = 'lightbox';
 document.body.appendChild(lightbox);
 
-const images = document.querySelectorAll('img');
-images.forEach((image) => {
+const images = document.querySelectorAll('.gallery-img');
+images.forEach(image => {
 	image.addEventListener('click', () => {
 		lightbox.classList.add('active');
 		const img = document.createElement('img');
@@ -16,7 +16,7 @@ images.forEach((image) => {
 	});
 });
 
-lightbox.addEventListener('click', (e) => {
+lightbox.addEventListener('click', e => {
 	if (e.target !== e.currentTarget) return;
 	lightbox.classList.remove('active');
 });
