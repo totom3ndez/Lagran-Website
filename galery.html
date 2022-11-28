@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>LAGRAN FC</title>
+		<!-- META TAGS -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Sitio web oficial de Lagran FC, equipo de la liga Vascogermana"
+		/>
+		<meta
+			name="theme-color"
+			media="(prefers-color-scheme: light)"
+			content="white"
+		/>
+		<meta
+			name="theme-color"
+			media="(prefers-color-scheme: dark)"
+			content="black"
+		/>
+		<!-- LINK TAGS -->
+		<link rel="stylesheet" href="build/css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="icon" type="image/x-icon" href="resources/img/favicon.ico" />
+		<link rel="apple-touch-icon" href="resources/img/favicon.ico" />
+		<link rel="manifest" href="/manifest.json" />
+		<!-- SCRIPT TAGS -->
+		<script
+			src="https://kit.fontawesome.com/6632fd7829.js"
+			crossorigin="anonymous"
+			defer
+		></script>
+		<script src="/app/main.js" defer></script>
+		<script src="/app/gallery.js" defer></script>
+	</head>
+	<body>
+		<div class="container-social-bar">
+			<div id="social-icons" class="social-icons-bar">
+				<a
+					id="igSocial"
+					href="https://www.instagram.com/paloyalabolsa.fc/"
+					target="_blank"
+					><i class="fa-brands fa-instagram"></i
+				></a>
+				<div id="slideIg" class="slide ig">/paloyalabolsa.fc</div>
+				<a
+					id="fbSocial"
+					href="https://www.facebook.com/Paloyalabolsalagran/"
+					target="_blank"
+					><i class="fa-brands fa-facebook"></i
+				></a>
+				<div id="slideFb" class="slide fb">/Paloyalabolsalagran</div>
+			</div>
+		</div>
+		<nav id="navbar" class="sticky">
+			<div class="nav-logo">
+				><img
+					width="200px"
+					height="300px"
+					id="logo"
+					src="resources/webp/index/escudopng.webp"
+					alt="escudo-palo"
+					class="nav-logo"
+					loading="lazy"
+				/>
+				<div id="name-tag">
+					<a id="lagran" href="#home">LAGRAN FC</a>
+					<p>Palo y a la bolsa</p>
+				</div>
+			</div>
+			<div class="nav-links" id="navLinks">
+				<i id="closeMenu" onclick="hideMenu()">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="20"
+						height="20"
+						color="white"
+						viewBox="0 0 20 20"
+					>
+						<g id="Capa_2" data-name="Capa 2">
+							<g id="Capa_1-2" data-name="Capa 1">
+								<path
+									d="M19.4,16.6a1.93,1.93,0,0,1,0,2.8,1.93,1.93,0,0,1-2.8,0L10,12.8,3.4,19.4A2,2,0,0,1,2,20a2,2,0,0,1-1.4-.6,1.93,1.93,0,0,1,0-2.8L7.2,10,.6,3.4A1.93,1.93,0,0,1,.6.6,1.93,1.93,0,0,1,3.4.6L10,7.2,16.6.6a1.93,1.93,0,0,1,2.8,0,1.93,1.93,0,0,1,0,2.8L12.8,10Z"
+								/>
+							</g>
+						</g>
+					</svg>
+				</i>
+				<div class="nav-links-text">
+					<a class="nav-link" href="index.html">INICIO</a>
+					<a class="nav-link" href="#nosotros">NOSOTROS</a>
+					<a class="nav-link" href="galery.html">GALERÍA</a>
+					<a class="nav-link" href="#">CONTÁCTO</a>
+				</div>
+			</div>
+			<i id="openMenu" onclick="showMenu()">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="20"
+					height="17.1"
+					viewBox="0 0 20 17.1"
+				>
+					<title>Recurso 1</title>
+					<g id="Capa_2" data-name="Capa 2">
+						<g id="Capa_1-2" data-name="Capa 1">
+							<path
+								d="M0,1.4A1.37,1.37,0,0,1,1.4,0H18.5a1.37,1.37,0,0,1,1.4,1.4,1.37,1.37,0,0,1-1.4,1.4H1.4A1.43,1.43,0,0,1,0,1.4ZM0,8.5A1.37,1.37,0,0,1,1.4,7.1H18.5a1.4,1.4,0,0,1,0,2.8H1.4A1.37,1.37,0,0,1,0,8.5Zm18.6,8.6H1.5a1.4,1.4,0,1,1,0-2.8H18.6A1.37,1.37,0,0,1,20,15.7,1.43,1.43,0,0,1,18.6,17.1Z"
+							/>
+						</g>
+					</g>
+				</svg>
+			</i>
+		</nav>
+		<section id="gallery">
+			<h1>GALERÍA</h1>
+			<div class="grid">
+				<img
+					src="resources/webp/Galeria/gallery1.webp"
+					alt="photo-gallery-1"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery2.webp"
+					alt="photo-gallery-2"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery3.webp"
+					alt="photo-gallery-3"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery4.webp"
+					alt="photo-gallery-4"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery5.webp"
+					alt="photo-gallery-5"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery6.webp"
+					alt="photo-gallery-6"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery33.webp"
+					alt="photo-gallery-8"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery8.webp"
+					alt="photo-gallery-7"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery34.webp"
+					alt="photo-gallery-9"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery35.webp"
+					alt="photo-gallery-10"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery36.webp"
+					alt="photo-gallery-11"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery37.webp"
+					alt="photo-gallery-12"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery38.webp"
+					alt="photo-gallery-13"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery41.webp"
+					alt="photo-gallery-14"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery43.webp"
+					alt="photo-gallery-15"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery9.webp"
+					alt="photo-gallery-16"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery10.webp"
+					alt="photo-gallery-17"
+				/>
+				<img
+					src="resources/webp/Galeria/gallery44.webp"
+					alt="photo-gallery-18"
+				/>
+			</div>
+		</section>
+	</body>
+</html>

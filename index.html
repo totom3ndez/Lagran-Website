@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>LAGRAN FC</title>
+		<!-- META TAGS -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Sitio web oficial de Lagran FC, equipo de la liga Vascogermana"
+		/>
+		<meta
+			name="theme-color"
+			media="(prefers-color-scheme: light)"
+			content="white"
+		/>
+		<meta
+			name="theme-color"
+			media="(prefers-color-scheme: dark)"
+			content="black"
+		/>
+		<!-- LINK TAGS -->
+		<link rel="stylesheet" href="build/css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="icon" type="image/x-icon" href="resources/img/favicon.ico" />
+		<link rel="apple-touch-icon" href="resources/img/favicon.ico" />
+		<link rel="manifest" href="/manifest.json" />
+		<!-- SCRIPT TAGS -->
+		<script
+			src="https://kit.fontawesome.com/6632fd7829.js"
+			crossorigin="anonymous"
+			defer
+		></script>
+		<script src="/app/main.js" defer></script>
+	</head>
+
+	<body>
+		<div class="container-social-bar">
+			<div id="social-icons" class="social-icons-bar">
+				<a
+					id="igSocial"
+					href="https://www.instagram.com/paloyalabolsa.fc/"
+					target="_blank"
+					><i class="fa-brands fa-instagram"></i
+				></a>
+				<div id="slideIg" class="slide ig">/paloyalabolsa.fc</div>
+				<a
+					id="fbSocial"
+					href="https://www.facebook.com/Paloyalabolsalagran/"
+					target="_blank"
+					><i class="fa-brands fa-facebook"></i
+				></a>
+				<div id="slideFb" class="slide fb">/Paloyalabolsalagran</div>
+			</div>
+		</div>
+		<button
+			role="link"
+			¬`
+			onclick="toTop()"
+			aria-label="Volver arriba"
+			id="backtotop"
+		>
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				width="20.14"
+				height="23.33"
+				viewBox="0 0 20.14 23.33"
+			>
+				<g id="Capa_2" data-name="Capa 2">
+					<g id="Capa_1-2" data-name="Capa 1">
+						<path
+							fill="#000"
+							d="M19.62,11.22a1.69,1.69,0,0,1-2.4,0l-5.5-5.5v16a1.59,1.59,0,0,1-1.6,1.61,1.67,1.67,0,0,1-1.7-1.61v-16l-5.5,5.5a1.63,1.63,0,0,1-2.4,0,1.64,1.64,0,0,1,0-2.39L8.83.52a1.64,1.64,0,0,1,2.39,0l8.3,8.31A1.55,1.55,0,0,1,19.62,11.22Z"
+						/>
+					</g>
+				</g>
+			</svg>
+		</button>
+		<nav id="navbar" class="sticky">
+			<div class="nav-logo">
+				><img
+					width="200px"
+					height="300px"
+					id="logo"
+					src="resources/webp/Home/escudopng.webp"
+					alt="escudo-palo"
+					class="nav-logo"
+					loading="lazy"
+				/>
+				<div id="name-tag">
+					<a id="lagran" href="#home">LAGRAN FC</a>
+					<p>Palo y a la bolsa</p>
+				</div>
+			</div>
+			<div class="nav-links" id="navLinks">
+				<i id="closeMenu" onclick="hideMenu()">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="20"
+						height="20"
+						color="white"
+						viewBox="0 0 20 20"
+					>
+						<g id="Capa_2" data-name="Capa 2">
+							<g id="Capa_1-2" data-name="Capa 1">
+								<path
+									d="M19.4,16.6a1.93,1.93,0,0,1,0,2.8,1.93,1.93,0,0,1-2.8,0L10,12.8,3.4,19.4A2,2,0,0,1,2,20a2,2,0,0,1-1.4-.6,1.93,1.93,0,0,1,0-2.8L7.2,10,.6,3.4A1.93,1.93,0,0,1,.6.6,1.93,1.93,0,0,1,3.4.6L10,7.2,16.6.6a1.93,1.93,0,0,1,2.8,0,1.93,1.93,0,0,1,0,2.8L12.8,10Z"
+								/>
+							</g>
+						</g>
+					</svg>
+				</i>
+				<div class="nav-links-text">
+					<a class="nav-link" href="index.html">INICIO</a>
+					<a class="nav-link" href="#nosotros">NOSOTROS</a>
+					<a class="nav-link" href="galery.html">GALERÍA</a>
+					<a class="nav-link" href="#">CONTÁCTO</a>
+				</div>
+			</div>
+			<i id="openMenu" onclick="showMenu()">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="20"
+					height="17.1"
+					viewBox="0 0 20 17.1"
+				>
+					<title>Recurso 1</title>
+					<g id="Capa_2" data-name="Capa 2">
+						<g id="Capa_1-2" data-name="Capa 1">
+							<path
+								d="M0,1.4A1.37,1.37,0,0,1,1.4,0H18.5a1.37,1.37,0,0,1,1.4,1.4,1.37,1.37,0,0,1-1.4,1.4H1.4A1.43,1.43,0,0,1,0,1.4ZM0,8.5A1.37,1.37,0,0,1,1.4,7.1H18.5a1.4,1.4,0,0,1,0,2.8H1.4A1.37,1.37,0,0,1,0,8.5Zm18.6,8.6H1.5a1.4,1.4,0,1,1,0-2.8H18.6A1.37,1.37,0,0,1,20,15.7,1.43,1.43,0,0,1,18.6,17.1Z"
+							/>
+						</g>
+					</g>
+				</svg>
+			</i>
+		</nav>
+		<header id="header" class="header">
+			<div class="hero-container">
+				<div class="hero__text">
+					<h1>
+						Bienvenidos a
+						<span>LAGRAN FC</span>
+					</h1>
+					<p>Fundado en Octubre del 2010</p>
+					<p>José Mármol</p>
+					<a
+						href="#nosotros"
+						class="btn-hero border-gradient border-gradient-purple"
+						>Conoce más</a
+					>
+				</div>
+				<div class="hero-img"></div>
+			</div>
+		</header>
+		<section class="section" id="nosotros">
+			<div class="card">
+				<div class="liga card-text">
+					<h1>LIGA</h1>
+					<p>
+						Actualmente nos encontramos jugando en la
+						<a style="color: white" href="http://www.vascogermana.com.ar/"
+							>Liga Vascogermana</a
+						>.
+					</p>
+					<p>
+						Aquí podras encontrar toda la información relacionada a la liga.
+						Proximos partidos, tabla de posiciones, tabla de goleadores, etc.
+					</p>
+				</div>
+				<button>Ver más información</button>
+			</div>
+			<div class="card">
+				<div class="equipo card-text">
+					<h1>EQUIPO</h1>
+					<p>Conocé a todos los jugadores de Palo y sus perfiles.</p>
+					<p>
+						Cada uno tiene un perfil diferente ¿Te imaginas que hacen en el día
+						a día esperando el fin de semana?
+					</p>
+				</div>
+				<button>Ver más información</button>
+			</div>
+			<div class="card">
+				<div class="indumentaria card-text">
+					<h1>INDUMENTARIA</h1>
+					<p>
+						Actualmente nos encontramos jugando en la
+						<a style="color: white" href="http://www.vascogermana.com.ar/"
+							>Liga Vascogermana</a
+						>.
+					</p>
+					<p>
+						Aquí podras encontrar toda la información relacionada a la liga.
+						Proximos partidos, tabla de posiciones, tabla de goleadores, etc.
+					</p>
+				</div>
+				<button>Ver más información</button>
+			</div>
+		</section>
+		<section class="section" id="galeria"></section>
+		<footer>
+			<div id="sponsorbar">
+				<img
+					width="100%"
+					height="100%"
+					src="resources/webp/Home/boston-sponsor.webp"
+					alt="boston"
+					loading="lazy"
+				/>
+				<img
+					width="100%"
+					height="100%"
+					src="resources/webp/Home/acuario-sponsor.webp"
+					alt="acuario"
+					loading="lazy"
+				/>
+				<img
+					width="100%"
+					height="100%"
+					src="resources/webp/Home/ed-sponsor.webp"
+					alt="ed"
+					loading="lazy"
+				/>
+			</div>
+			<div class="copyright">
+				<h3>
+					&copy;
+					<b>LAGRAN FC</b>
+					- Sitio web oficial
+				</h3>
+			</div>
+		</footer>
+	</body>
+</html>

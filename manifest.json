@@ -1,0 +1,19 @@
+{
+    "name": "Lagran FC",
+    "short_name": "Lagran",
+    "start_url": "index.html",
+    "background_color": "black",
+    "display": "standalone",
+    "description": "Sitio web oficial de Lagran FC",
+    "theme_color": "black",
+    
+    "icons": [
+        {
+        "src": "resources/img/icon-maskable.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+        }
+    ]
+    
+}
